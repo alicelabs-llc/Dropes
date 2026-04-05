@@ -1,20 +1,56 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+# Dropes
+**Ready-to-deploy dropshipping storefront**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-238636?style=flat-square)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?style=flat-square&logo=vite)](https://vite.dev/)
+
+A full-featured ecommerce landing page for dropshipping. Flash sales, social proof, checkout modal, and contra reembolso support.
+
+Built by [AliceLabs LLC](https://alicelabs.site)
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/6bd8afd6-e290-4ce8-b9cf-8908ff5cd437
+- **Flash sale section** with countdown timer
+- **Best sellers** product grid with buy buttons
+- **Social proof popup** live purchase notifications
+- **Checkout modal** lightweight order capture
+- **Trust ribbon** shipping, payment, return badges
+- **Newsletter** email capture
+- **Responsive** mobile-first design
+- **Contra Reembolso** cash on delivery support
 
-## Run Locally
+## Tech stack
 
-**Prerequisites:**  Node.js
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- Lucide React icons
 
+## Quick start
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+git clone https://github.com/alicelabs-llc/Dropes.git
+cd Dropes
+npm install
+npm run dev
+```
+
+## Customization
+
+| Component | What to change |
+|-----------|---------------|
+| `src/components/FlashSale.tsx` | Flash sale products and prices |
+| `src/components/BestSellers.tsx` | Best seller products |
+| `src/components/Hero.tsx` | Hero headline and CTA |
+| `src/components/Footer.tsx` | Contact info and links |
+
+---
+
+© 2026 AliceLabs LLC · [alicelabs.site](https://alicelabs.site)
